@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS=5</title>
+    <style>
+    .img{
+        hight: 100px;
+        width: 300px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid red ;
+    }
+
+    .outer-box{
+        background-color:rgb(67, 165, 42) ;
+    }
+    .inner-box{
+        background-color:blanchedalmond ;
+        transform: scale(0.5);
+    }
+.b{
+        height: 200px;
+        width: 800px;
+        border: 1px solid red ;
+        background-color:chartreuse;
+        transition:background-color 5s ;
+}
+.b:hover{
+    background-color: black;
+   width: 800px;
+   height: 250px;
+}
+.a{
+    height: 200px;
+    width: 150px;
+    border: 1px solid red;
+    font-size: 30px;
+    border-radius: 5%;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+    </style>
+</head>
+<body>
+    <img Class="img" src=" Web Developer.svg"alt=""srcset="">
+        <div class="box outer-box">
+        <div class="box inner-box"></div>
+    </div>
+    <div class="box outer-box">
+        <div class="box inner-box"></div>
+    </div>
+    <div class="box outer-box">
+        <div class="box inner-box"></div>
+    </div>
+    <div class="box b x">
+        </div>
+
+    <div>
+
+
+        <div class="container">
+            <div class="box a">
+                Box-1
+            </div>
+            <div class="box a">
+                Box-2
+            </div>
+            <div class="box a">
+                Box-3
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+</html>
